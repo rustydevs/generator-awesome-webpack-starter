@@ -24,13 +24,14 @@
     "yeoman-test": "^1.6.0"
   },
   "scripts": {
-    "test": "jest",
+    "test": "istanbul cover -instrument generators/app/index.js jest",
     "prepublish": "nsp check",
     "pretest": "eslint . --fix"
   },
   "license": "MIT",
   "dependencies": {
     "chalk": "^1.1.3",
+    "istanbul": "^0.4.5",
     "yeoman-generator": "^1.0.0",
     "yosay": "^2.0.0"
   },
