@@ -45,5 +45,5 @@
       "node": true
     }
   },
-  "repository": "reflexdemon/generator-awesome-webpack-starter"
+  "repository": "git@github.com:rustydevs/generator-awesome-webpack-starter.git"
 }
