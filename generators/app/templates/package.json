@@ -1,0 +1,38 @@
+{
+  "name": "webpack-scaffolding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "npm run clean:all",
+    "clean:modules": "rimraf node_modules",
+    "clean:all": "rimraf dist rimraf build",
+    "clean:dev": "rimraf build",
+    "clean:prod": "rimraf dist",
+    "build": "npm run build:dev",
+    "build:dev": "webpack --env=dev --progress --profile --colors",
+    "build:prod": "webpack --env=prod --progress --profile --colors",
+    "serve": "npm run serve:dev",
+    "serve:dev": "webpack-dev-server --env=dev --open",
+    "serve:prod": "webpack-dev-server --env=prod --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.16",
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^3.0.0-rc.2",
+    "html-webpack-plugin": "^2.29.0",
+    "node-sass": "^4.5.3",
+    "resolve-url-loader": "^2.1.0",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.3.0",
+    "webpack-dev-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.6"
+  }
+}
