@@ -1,4 +1,4 @@
-# generator-awesome-webpack-starter [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage Status]([covralls-image]][covralls-url]
+# generator-awesome-webpack-starter [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage Status][covralls-image]][covralls-url]
 
 > Starter Template for building Webpack templates
 
