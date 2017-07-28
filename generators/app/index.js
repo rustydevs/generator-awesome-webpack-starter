@@ -11,14 +11,14 @@ module.exports = class extends Generator {
     ));
 
     const prompts = [
-      //Will add prompts in future!
+      // Will add prompts in future!
     //   {
     //   type: 'confirm',
     //   name: 'proceed',
     //   message: 'Would you like to scaffold on current directory?',
     //   default: true
     // }
-  ];
+    ];
 
     return this.prompt(prompts).then(props => {
       // To access props later use this.props.proceed;
@@ -37,10 +37,9 @@ module.exports = class extends Generator {
     this.fs.copy(this.templatePath('src/index.js'), this.destinationPath('src/index.js'));
     this.fs.copy(this.templatePath('src/scss'), this.destinationPath('src/scss'));
     this.fs.copy(this.templatePath('src/scss/styles.scss'), this.destinationPath('./src/scss/styles.scss'));
-
   }
 
   install() {
-      this.installDependencies({bower: false});
+    this.installDependencies({bower: false});
   }
 };
