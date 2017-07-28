@@ -33,7 +33,7 @@ MIT © [reflexdemon, thebaron24]()
 [npm-url]: https://npmjs.org/package/generator-awesome-webpack-starter
 [travis-image]: https://travis-ci.org/rustydevs/generator-awesome-webpack-starter.svg?branch=master
 [travis-url]: https://travis-ci.org/rustydevs/generator-awesome-webpack-starter
-[daviddm-image]: https://david-dm.org/rustydev/generator-awesome-webpack-starter.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/rustydev/generator-awesome-webpack-starter
+[daviddm-image]: https://david-dm.org/rustydevs/generator-awesome-webpack-starter.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/rustydevs/generator-awesome-webpack-starter
 [covralls-url]: https://coveralls.io/github/rustydevs/generator-awesome-webpack-starter?branch=master
 [covralls-image]: https://coveralls.io/repos/github/rustydevs/generator-awesome-webpack-starter/badge.svg?branch=master
