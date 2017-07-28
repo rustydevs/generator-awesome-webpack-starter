@@ -1,4 +1,4 @@
-# generator-awesome-webpack-starter [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+# generator-awesome-webpack-starter [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage Status]([covralls-image]][covralls-url]
 
 > Starter Template for building Webpack templates
 
@@ -35,4 +35,5 @@ MIT © [reflexdemon, thebaron24]()
 [travis-url]: https://travis-ci.org/rustydevs/generator-awesome-webpack-starter
 [daviddm-image]: https://david-dm.org/rustydev/generator-awesome-webpack-starter.svg?theme=shields.io
 [daviddm-url]: https://david-dm.org/rustydev/generator-awesome-webpack-starter
-
+[covralls-url]: https://coveralls.io/github/rustydevs/generator-awesome-webpack-starter?branch=master
+[covralls-image]: https://coveralls.io/repos/github/rustydevs/generator-awesome-webpack-starter/badge.svg?branch=master
