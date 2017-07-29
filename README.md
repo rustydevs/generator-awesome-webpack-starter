@@ -1,5 +1,7 @@
 # generator-awesome-webpack-starter [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage Status][covralls-image]][covralls-url]
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/rustydevs/generator-awesome-webpack-starter.svg)](https://greenkeeper.io/)
+
 > Starter Template for building Webpack templates
 
 ## Installation
