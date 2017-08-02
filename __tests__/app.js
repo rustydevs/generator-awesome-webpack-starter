@@ -15,6 +15,7 @@ describe('generator-awesome-webpack-starter:app', () => {
       'webpack.prod.js',
       'webpack.config.js',
       '.gitignore',
+      'README.md',
       'webpack.dev.js',
       'src',
       'src/index.js',

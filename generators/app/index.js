@@ -37,6 +37,8 @@ module.exports = class extends Generator {
     this.fs.copy(this.templatePath('src/index.js'), this.destinationPath('src/index.js'));
     this.fs.copy(this.templatePath('src/scss'), this.destinationPath('src/scss'));
     this.fs.copy(this.templatePath('src/scss/styles.scss'), this.destinationPath('./src/scss/styles.scss'));
+    this.fs.copy(this.templatePath('README.md'), this.destinationPath('README.md'));
+    this.fs.copy(this.templatePath('_.gitignore'), this.destinationPath('.gitignore'));
   }
 
   install() {
