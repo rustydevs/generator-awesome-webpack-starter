@@ -1,6 +1,6 @@
 # generator-awesome-webpack-starter [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage Status][covralls-image]][covralls-url]
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/rustydevs/generator-awesome-webpack-starter.svg)](https://greenkeeper.io/)
+[![Greenkeeper badge]([greenkeeper-image])]([greenkeeper-url])
 
 > Starter Template for building Webpack templates
 
@@ -39,3 +39,5 @@ MIT © [reflexdemon, thebaron24]()
 [daviddm-url]: https://david-dm.org/rustydevs/generator-awesome-webpack-starter
 [covralls-url]: https://coveralls.io/github/rustydevs/generator-awesome-webpack-starter?branch=master
 [covralls-image]: https://coveralls.io/repos/github/rustydevs/generator-awesome-webpack-starter/badge.svg?branch=master
+[greenkeeper-image]: https://badges.greenkeeper.io/rustydevs/generator-awesome-webpack-starter.svg
+[greenkeeper-url]: https://greenkeeper.io/
