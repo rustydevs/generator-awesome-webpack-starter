@@ -25,8 +25,8 @@
   },
   "scripts": {
     "test": "istanbul cover -instrument generators/app/index.js jest",
-    "prepublish": "nsp check",
-    "pretest": "eslint . --fix"
+    "not-required-prepublish": "nsp check",
+    "not-required-pretest": "eslint . --fix"
   },
   "license": "MIT",
   "dependencies": {
