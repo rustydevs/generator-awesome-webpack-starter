@@ -1,49 +1,51 @@
 {
-  "name": "generator-awesome-webpack-starter",
-  "version": "1.0.3",
-  "description": "Starter Template for building Webpack templates",
-  "homepage": "",
-  "author": "reflexdemon, thebaron24",
-  "files": [
-    "generators"
-  ],
-  "main": "index.js",
-  "keywords": [
-    "webpack",
-    "starter",
-    "yeoman-generator"
-  ],
-  "devDependencies": {
-    "coveralls": "^3.0.0",
-    "eslint": "^6.0.0",
-    "eslint-config-xo-space": "^0.21.0",
-    "jest": "^22.0.0",
-    "jest-cli": "^23.0.0",
-    "nsp": "^3.0.0",
-    "yeoman-assert": "^3.0.0",
-    "yeoman-test": "^2.0.0"
-  },
-  "scripts": {
-    "test": "istanbul cover -instrument generators/app/index.js jest",
-    "not-required-prepublish": "nsp check",
-    "not-required-pretest": "eslint . --fix"
-  },
-  "license": "MIT",
-  "dependencies": {
-    "chalk": "^2.0.1",
-    "istanbul": "^0.4.5",
-    "yeoman-generator": "^4.0.0",
-    "yosay": "^2.0.0"
-  },
-  "jest": {
-    "testEnvironment": "node"
-  },
-  "eslintConfig": {
-    "extends": "xo-space",
-    "env": {
-      "jest": true,
-      "node": true
-    }
-  },
-  "repository": "git@github.com:rustydevs/generator-awesome-webpack-starter.git"
-}
+    "name": "generator-awesome-webpack-starter",
+    "version": "1.0.3",
+    "description": "Starter Template for building Webpack templates",
+    "homepage": "https://github.com/rustydevs/generator-awesome-webpack-starter/",
+    "author": "reflexdemon, thebaron24",
+    "files": [
+      "generators"
+    ],
+    "main": "index.js",
+    "keywords": [
+      "webpack",
+      "starter",
+      "yeoman-generator"
+    ],
+    "devDependencies": {
+      "coveralls": "^3.0.0",
+      "eslint": "^6.0.0",
+      "eslint-config-xo-space": "^0.21.0",
+      "jest": "^22.0.0",
+      "jest-cli": "^23.0.0",
+      "nsp": "^3.0.0",
+      "yeoman-assert": "^3.0.0",
+      "yeoman-test": "^2.0.0"
+    },
+    "scripts": {
+      "test": "istanbul cover -instrument generators/app/index.js jest",
+      "not-required-prepublish": "nsp check",
+      "not-required-pretest": "eslint . --fix"
+    },
+    "license": "MIT",
+    "dependencies": {
+      "chalk": "^2.0.1",
+      "istanbul": "^0.4.5",
+      "yeoman-generator": "^4.0.0",
+      "yosay": "^2.0.0"
+    },
+    "jest": {
+      "testEnvironment": "node"
+    },
+    "eslintConfig": {
+      "extends": "xo-space",
+      "env": {
+        "jest": true,
+        "node": true
+      }
+    },
+    "repository": "https://github.com/rustydevs/generator-awesome-webpack-starter.git",
+    "bugs": "https://github.com/rustydevs/generator-awesome-webpack-starter/issues",
+    "contributors": "reflexdemon,greenkeeper[bot]"
+} 
